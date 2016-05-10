@@ -1,0 +1,59 @@
+What's in the database
+
+1 customers
+	* Profile Questionairre
+		- Married
+		- Kids
+		- Own vs Rent
+		- Estimated Net Worth ($, $$, $$$, $$$$)
+		- Intereset in Partner
+		- Small Business Owner
+	* Client Engagement and Notes
+	* Existing Products
+	* Account History Flag (API Call to modify flag)
+		- Mortgage Payments
+		- Travel
+		- Wires/ACH to competing banks
+	* Follower Reminder
+		- Time
+		- Settings
+	- People related accounts
+	- Credit Score
+	- Customer Category
+	- Information
+		- Salutation
+		- Legal Name (first, last)
+		- Nickname
+		- Address
+		- Phone
+		- Email
+		- Preferred Contract
+		- DOB
+		- Employment
+			- Company Name
+			- Company Address
+			- Company Phone
+			- Salary
+	- Do not contact
+
+2 GUI 
+	- Interact with each flag
+	- Different access per level
+	- Send Email or text
+	- Follow-up reminders with customized
+
+3 products
+	- credit cards
+	- mortgage
+	- loans
+	- checking, money market, savings
+	- investments
+	- partners
+	- small business owners
+
+json web tokens or passport
+Amazon s3
+
+
+
+
