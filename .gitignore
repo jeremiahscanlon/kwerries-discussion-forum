@@ -32,4 +32,8 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
+# That weird Mac file
 .DS_Store
+
+# My personal Notes folder
+notes
