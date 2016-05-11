@@ -26,7 +26,10 @@ var group = sequelize.define("group", {
 });
 
 // Syncs with DB
-group.sync();
+group.sync({force: true}).then(function () {
+  // Table created
+  console.log('group table created')
+});
 
 // Makes the group Model available for other files (will also create a table)
 module.exports = group;
